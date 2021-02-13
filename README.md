@@ -16,6 +16,7 @@ For real-time rendering, we use OpenGL's geometry instancing API together with a
 Here are some rendered images:
 
 ![fig1](https://github.com/potato3d/instancing/blob/main/imgs/fig1.png "example")
+![fig5](https://github.com/potato3d/instancing/blob/main/imgs/fig5.png "examples")
 
 Here are some performance and memory results:
 
