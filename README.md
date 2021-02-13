@@ -1,6 +1,4 @@
 # instancing
-Instanced rendering of massive CAD models using shape matching
-
 Source code for the article [Instanced Rendering of Massive CAD Models Using Shape Matching](https://ieeexplore.ieee.org/document/6915326)
 
 We present an efficient approach to greatly reduce memory usage and to achieve high rendering performance for massive 3D CAD models. Our work is based on the observation that these models often contain many instances of the same geometries. Using a shape matching algorithm, we identify these instances and estimate the optimal affine transformation between them. The resulting sets of unique geometries only require a fraction of the memory used by the original 3D model. This compact representation can be rendered efficiently using hardware-accelerated geometry instancing. As another benefit, this allows for interactive rendering of highly dynamic scenes of up to a million moving objects. Our proposal assumes no knowledge about the scene, and thus can be applied to other kinds of massive 3D models with similar properties.
